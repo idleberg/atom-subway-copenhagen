@@ -1,0 +1,222 @@
+@import "syntax-variables.less";
+
+atom-text-editor, // <- remove when Shadow DOM can't be disabled
+:host {
+  color: @syntax-text-color;
+  background-color: @syntax-background-color;
+  .gutter {
+    color: @syntax-gutter-text-color;
+    background-color: @syntax-gutter-background-color;
+  }
+
+  .gutter .line-number.cursor-line {
+    color: @syntax-gutter-text-color-selected;
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .gutter .line-number.cursor-line-no-selection {
+    color: @syntax-gutter-text-color-selected;
+  }
+
+  .wrap-guide {
+    color: @syntax-wrap-guide-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .search-results .marker .region {
+    background-color: transparent;
+    border: @syntax-result-marker-color;
+  }
+
+  .search-results .marker.current-result .region {
+    border: @syntax-result-marker-color-selected;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .line-number.cursor-line-no-selection, .line.cursor-line {
+    background-color: rgba(176, 176, 176, 0.33);
+  }
+
+}
+
+.variable.parameter.function {
+  color: #68686a;
+}
+
+.comment, .punctuation.definition.comment {
+  color: #a3a3a5;
+}
+
+.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
+  color: #68686a;
+}
+
+.none {
+  color: #68686a;
+}
+
+.keyword.operator {
+  color: #68686a;
+}
+
+.keyword {
+  color: #8179b0;
+}
+
+.variable {
+  color: #c1001f;
+}
+
+.entity.name.function, .meta.require, .support.function.any-method {
+  color: #24a6e0;
+}
+
+.support.class, .entity.name.class, .entity.name.type.class {
+  color: #dc931a;
+}
+
+.meta.class {
+  color: #3c3c3f;
+}
+
+.keyword.other.special-method {
+  color: #24a6e0;
+}
+
+.storage {
+  color: #8179b0;
+}
+
+.support.function {
+  color: #b6cc71;
+}
+
+.string, .constant.other.symbol, .entity.other.inherited-class {
+  color: #77aa38;
+}
+
+.constant.numeric {
+  color: #dc931a;
+}
+
+.none {
+  color: #dc931a;
+}
+
+.none {
+  color: #dc931a;
+}
+
+.constant {
+  color: #dc931a;
+}
+
+.entity.name.tag {
+  color: #c1001f;
+}
+
+.entity.other.attribute-name {
+  color: #dc931a;
+}
+
+.entity.other.attribute-name.id, .punctuation.definition.entity {
+  color: #24a6e0;
+}
+
+.meta.selector {
+  color: #8179b0;
+}
+
+.none {
+  color: #dc931a;
+}
+
+.markup.heading .punctuation.definition.heading, .entity.name.section {
+  color: #24a6e0;
+}
+
+.keyword.other.unit {
+  color: #dc931a;
+}
+
+.markup.bold, .punctuation.definition.bold {
+  font-weight: bold;
+  color: #dc931a;
+}
+
+.markup.italic, .punctuation.definition.italic {
+  font-style: italic;
+  color: #8179b0;
+}
+
+.markup.raw.inline {
+  color: #77aa38;
+}
+
+.string.other.link {
+  color: #c1001f;
+}
+
+.meta.link {
+  color: #dc931a;
+}
+
+.markup.list {
+  color: #c1001f;
+}
+
+.markup.quote {
+  color: #dc931a;
+}
+
+.meta.separator {
+  color: #68686a;
+  background-color: #d6d6d7;
+}
+
+.markup.inserted {
+  color: #77aa38;
+}
+
+.markup.deleted {
+  color: #c1001f;
+}
+
+.markup.changed {
+  color: #8179b0;
+}
+
+.constant.other.color {
+  color: #b6cc71;
+}
+
+.string.regexp {
+  color: #b6cc71;
+}
+
+.constant.character.escape {
+  color: #b6cc71;
+}
+
+.punctuation.section.embedded, .variable.interpolation {
+  color: #6f141e;
+}
+
+.invalid.illegal {
+  color: #ffffff;
+  background-color: #c1001f;
+}
