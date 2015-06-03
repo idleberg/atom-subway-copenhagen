@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Color scheme based on the Copenhagen Metro subway Map",
   "repository": "https://github.com/idleberg/atom-subway-copenhagen",
-  "license": "CC0-1.0",
+  "license": "Public Domain Mark 1.0",
   "author": {
     "name": "Jan T. Sott",
     "url": "http://github.com/idleberg"
