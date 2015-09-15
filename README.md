@@ -1,8 +1,9 @@
 # Subway Copenhagen for Atom
 
-[![Version](https://img.shields.io/apm/v/subway-copenhagen.svg?style=flat-square)](https://atom.io/themes/subway-copenhagen)
+[![apm](https://img.shields.io/apm/l/subway-copenhagen.svg?style=flat-square)](https://atom.io/themes/subway-copenhagen)
+[![apm](https://img.shields.io/apm/v/subway-copenhagen.svg?style=flat-square)](https://atom.io/themes/subway-copenhagen)
+[![apm](https://img.shields.io/apm/dm/subway-copenhagen.svg?style=flat-square)](https://atom.io/themes/subway-copenhagen)
 [![Travis branch](https://img.shields.io/travis/idleberg/atom-subway-copenhagen/master.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-subway-copenhagen)
-[![License](https://img.shields.io/apm/l/subway-copenhagen.svg?style=flat-square)](http://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 Color scheme based on the Copenhagen Metro subway map
 
