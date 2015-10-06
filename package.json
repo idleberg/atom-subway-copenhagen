@@ -1,7 +1,7 @@
 {
   "name": "subway-copenhagen",
   "theme": "syntax",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Color scheme based on the Copenhagen Metro subway Map",
   "repository": "https://github.com/idleberg/atom-subway-copenhagen",
   "license": "Public Domain Mark 1.0",
