@@ -1,30 +1,45 @@
-// This defines all syntax variables that syntax themes must implement when they
-// include a syntax-variables.less file.
+@import "colors.less";
+
+// Official Syntax Variables
 
 // General colors
-@syntax-text-color: #68686a;
-@syntax-cursor-color: #68686a;
-@syntax-selection-color: #d6d6d7;
-@syntax-background-color: #ffffff;
+@syntax-text-color:            @black;
+@syntax-cursor-color:          @black;
+@syntax-selection-color:       @almost-white;
+@syntax-selection-flash-color: @very-dark-gray;
+@syntax-background-color:      @white;
 
 // Guide colors
-@syntax-wrap-guide-color: #d6d6d7;
-@syntax-indent-guide-color: #d6d6d7;
-@syntax-invisible-character-color: #d6d6d7;
+@syntax-wrap-guide-color:          @very-light-gray;
+@syntax-indent-guide-color:        @very-light-gray;
+@syntax-invisible-character-color: @very-light-gray;
 
 // For find and replace markers
-@syntax-result-marker-color: #d6d6d7;
-@syntax-result-marker-color-selected: #68686a;
+@syntax-result-marker-color:          @light-gray;
+@syntax-result-marker-color-selected: @very-light-gray;
 
 // Gutter colors
-@syntax-gutter-text-color: #68686a;
-@syntax-gutter-text-color-selected: #68686a;
-@syntax-gutter-background-color: #ffffff;
-@syntax-gutter-background-color-selected: rgba(176, 176, 176, 0.33);
+@syntax-gutter-text-color:                @light-gray;
+@syntax-gutter-text-color-selected:       @dark-gray;
+@syntax-gutter-background-color:          @syntax-background-color;
+@syntax-gutter-background-color-selected: @syntax-selection-color;
 
 // For git diff info. i.e. in the gutter
-// These are static and were not extracted from your textmate theme
-@syntax-color-renamed: #24a6e0;
-@syntax-color-added: #77aa38;
-@syntax-color-modified: #eec200;
-@syntax-color-removed: #c1001f;
+@syntax-color-renamed:  @blue;
+@syntax-color-added:    @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed:  @red;
+
+// For language entity colors
+@syntax-color-variable:  @red;
+@syntax-color-constant:  @orange;
+@syntax-color-property:  @syntax-text-color;
+@syntax-color-value:     @green;
+@syntax-color-function:  @blue;
+@syntax-color-method:    @blue;
+@syntax-color-class:     @yellow;
+@syntax-color-keyword:   @purple;
+@syntax-color-tag:       @red;
+@syntax-color-attribute: @orange;
+@syntax-color-import:    @purple;
+@syntax-color-snippet:   @green;
